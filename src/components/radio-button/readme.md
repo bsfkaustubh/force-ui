@@ -80,6 +80,7 @@ The label also accepts a React component.
 - **description:** For form validation required prop value can be set to true.
 
 ## `RadioButton.Button` Props
+- **description:** A button-style radio tile used when `style='tile'` in the `RadioButton.Group`.
 
 ### id (optional)
 - **type:** `string`
