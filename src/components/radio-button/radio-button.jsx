@@ -306,8 +306,9 @@ const RadioButtonComponent = (
 				<div className="absolute mr-0.5 bottom-1.5 right-3">
 					<Tooltip
 						arrow
-						title={ info?.heading }
-						content={ info?.description }
+						// title={ info?.heading }
+						// content={ info?.description }
+                        label={{ heading: info?.heading, description: info?.description }}
 						triggers={ [ 'hover', 'focus' ] }
 						placement="top"
 					>
